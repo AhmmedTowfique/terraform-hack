@@ -18,7 +18,3 @@ This repository contains a PowerShell script to install Terraform on a Windows s
 
 ```powershell
 .\install-terraform.ps1
-
-## Author
-
-Ahmmed Towfique
