@@ -1,19 +1,23 @@
-# Terraform EC2 Instance Setup
+# Terraform Setup
 
-This repository contains Terraform configuration files to create an AWS EC2 instance.
+This repository contains a PowerShell script to install Terraform on a Windows system.
+
+## Files
+
+- `install-terraform.ps1`: PowerShell script to automatically download and install Terraform.
+- `.gitignore`: Keeps only essential files tracked in Git.
+- `README.md`: You're reading it!
 
 ## How to Use
 
-1. Make sure you have [Terraform](https://www.terraform.io/downloads.html) installed.
-2. Update the variables (like AMI ID, key pair, security group) in the main Terraform file.
-3. Run `terraform init` to initialize.
-4. Run `terraform plan` to preview changes.
-5. Run `terraform apply` to create the infrastructure.
+### ⚙️ Windows + PowerShell (Run as Administrator)
 
-## Notes
+1. **Open PowerShell as Administrator**
+2. **Navigate to the folder where this repo is cloned**
+3. **Run the script**:
 
-- Make sure your AWS credentials are properly configured.
-- The key pair `.pem` file should be accessible for SSH access.
+```powershell
+.\install-terraform.ps1
 
 ## Author
 
